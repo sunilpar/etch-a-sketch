@@ -1,0 +1,50 @@
+
+
+body{
+    background: linear-gradient(221deg, #aa40f0, #39bde1, #3aedc3);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 43s ease infinite;
+    -moz-animation: AnimationName 43s ease infinite;
+    animation: AnimationName 43s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+} 
+.board{
+    height: 500px;
+    width: 500px;
+    display: grid;
+    
+}
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size:20px;
+    line-height: inherit;}
+
+h1{
+    padding: 0;
+    font-family: Rowdies ;
+}
+
